@@ -1,6 +1,6 @@
 {% set name = "gravity-toolkit" %}
-{% set version = "1.2.3" %}
-{% set sha256 = "4176588380f4b9e55945dc1dac4369765d325fea3793eb8b9f5786e0771566e4" %}
+{% set version = "1.2.4" %}
+{% set sha256 = "9a3601cfcd14b91f674908e890660f7a6820b0fe6d8778d566edff8454dbe764" %}
 
 package:
   name: {{ name|lower }}
@@ -21,22 +21,22 @@ requirements:
     - pip
     - setuptools
   run:
-    - python
     - boto3
     - cartopy
     - future
     - h5py
-    - lxml
     - ipywidgets
     - ipympl
     - jupyterlab
     - jupyterlab_widgets
+    - lxml
     - matplotlib-base
+    - netcdf4
     - numpy
     - python >={{ python_min }}
     - python-dateutil
     - pyyaml
-    - scipy
+    - scipy >=1.10.1
     - setuptools
 
 test:
