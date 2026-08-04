@@ -1,6 +1,6 @@
 {% set name = "gravity-toolkit" %}
-{% set version = "1.2.6" %}
-{% set sha256 = "b207f0f2f8ae2c8067338ee550cbb72a5489e0cf40c747b1792c85cbeb114c62" %}
+{% set version = "1.2.7" %}
+{% set sha256 = "0accc820e7b6d36f182eefb9e9a26bb74376ada1957532981561e9095bb7f8db" %}
 
 package:
   name: {{ name|lower }}
